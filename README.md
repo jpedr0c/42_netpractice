@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/jpedr0c/42_netpractice">
-<img src="https://github.com/jpedr0c/42_netpractice/blob/main/images/netpratice.png?raw=true" height="120" width="120">
+<img src="images/netpractice.png" height="120" width="120">
 </a>
 </p>
 <h1 align=center>
@@ -33,6 +33,15 @@
 <a id="Explanation"></a>
 ## 📝 Explanation
 
+### TCP - Transmission Control Protocol
+- It's a communication standard that allowns programs, applications and devices to exchange messages on a network.
+- It's used to send packets over the internet.
+- It ensures the integrity of the data being transmitted on a network.
+- It divides large amounts of data into smaller packets, ensuring end-to-end delivery without loss of data.
+
+### IP Address
+- 
+
 <h3>IN PROGRESS</h3>
 
 <br/>
@@ -43,7 +52,7 @@
 <details>
 <summary>Level 1</summary>
 <br/>
-<img src="https://github.com/jpedr0c/42_netpractice/blob/main/images/level1.png?raw=true" alt="level1">
+<img src="images/level1.jpeg?raw=true" alt="level1">
 <br/>
 </details>
 
@@ -52,7 +61,7 @@
 <details>
 <summary>Level 2</summary>
 <br/>
-<img src="https://github.com/jpedr0c/42_netpractice/blob/main/images/level2.png?raw=true" alt="level2">
+<img src="images/level2.jpeg?raw=true" alt="level2">
 <br/>
 </details>
 
@@ -61,7 +70,7 @@
 <details>
 <summary>Level 3</summary>
 <br/>
-<img src="https://github.com/jpedr0c/42_netpractice/blob/main/images/level3.png?raw=true" alt="level3">
+<img src="images/level3.jpeg?raw=true" alt="level3">
 <br/>
 </details>
 
@@ -70,7 +79,7 @@
 <details>
 <summary>Level 4</summary>
 <br/>
-<img src="https://github.com/jpedr0c/42_netpractice/blob/main/images/level4.png?raw=true" alt="level4">
+<img src="images/level4.jpeg?raw=true" alt="level4">
 <br/>
 </details>
 
@@ -79,7 +88,7 @@
 <details>
 <summary>Level 5</summary>
 <br/>
-<img src="https://github.com/jpedr0c/42_netpractice/blob/main/images/level5.png?raw=true" alt="level5">
+<img src="images/level5.jpeg?raw=true" alt="level5">
 <br/>
 </details>
 
@@ -88,7 +97,7 @@
 <details>
 <summary>Level 6</summary>
 <br/>
-<img src="https://github.com/jpedr0c/42_netpractice/blob/main/images/level6.png?raw=true" alt="level6">
+<img src="images/level6.jpeg?raw=true" alt="level6">
 <br/>
 </details>
 
@@ -97,7 +106,7 @@
 <details>
 <summary>Level 7</summary>
 <br/>
-<img src="https://github.com/jpedr0c/42_netpractice/blob/main/images/level7.png?raw=true" alt="level7">
+<img src="images/level7.jpeg?raw=true" alt="level7">
 <br/>
 </details>
 
@@ -106,7 +115,7 @@
 <details>
 <summary>Level 8</summary>
 <br/>
-<img src="https://github.com/jpedr0c/42_netpractice/blob/main/images/level8.png?raw=true" alt="level8">
+<img src="images/level8.jpeg?raw=true" alt="level8">
 <br/>
 </details>
 
@@ -115,7 +124,7 @@
 <details>
 <summary>Level 9</summary>
 <br/>
-<img src="https://github.com/jpedr0c/42_netpractice/blob/main/images/level9.png?raw=true" alt="level9">
+<img src="images/level9.jpeg?raw=true" alt="level9">
 <br/>
 </details>
 
@@ -124,7 +133,7 @@
 <details>
 <summary>Level 10</summary>
 <br/>
-<img src="https://github.com/jpedr0c/42_netpractice/blob/main/images/level10.png?raw=true" alt="level10">
+<img src="images/level10.jpeg?raw=true" alt="level10">
 <br/>
 </details>
 
