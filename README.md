@@ -33,15 +33,74 @@
 ## 📝 Explanation
 
 ### TCP - Transmission Control Protocol
-- It's a communication standard that allowns programs, applications and devices to exchange messages on a network.
+- TCP is a communication standard that allowns programs, applications and devices to exchange messages over a network.
 - It's used to send packets over the internet.
-- It ensures the integrity of the data being transmitted on a network.
-- It divides large amounts of data into smaller packets, ensuring end-to-end delivery without loss of data.
+- It ensures the integrity of the data being transmitted over a network.
+- It divides large amounts of data into smaller packets, ensuring end-to-end delivery without data loss.
+
+#
 
 ### IP Address
-- 
+- Is't part of an Internet protocol suite, which also includes TCP.
+- The Internet Protocol suite governs the rules for packaging, addressing, transmitting, routing and receiving data across networks.
+- IP addressing is a logical means of assigning addresses to devices on a network.
+- Each device connected to the Internet requires a unique IP address.
+- An IP address has two parts: it identifies the host and it identifies the network.
+- TCP/IP uses a subnet mask to separete them.
+  #### IPv4
+  - Defines an IP address as a 32-bit number.
+  - It has more than 4.3 billion addresses.
+  - IP addresses must be reused and mask and uses Numeric Dot-Decimal Notation.
+  - E.g.: 192.168.42.23
+  - Must be configures manually.
+  #### IPv6
+  - Defines an IP address as a 128-bit number.
+  - It has more than 340 undecillion addresses.
+  - Each device can have its own unique IP address and uses alphanumeric hexadecimal notation.
+  - E.g.: 163f:6dee:0231:0042:0100:8c2e:0370:7286
+  - Support automatic configuration.
 
-<h3>IN PROGRESS</h3>
+#
+
+### Subnet Mask
+- It's a 32-bit address used to distinguish between a network address and a host address in the IP address.
+- It's a network within a network. Subnets make networks more efficient.
+- Subnetting is the process of stealing bits from the HOST part of the IP address to divide the large network into smaller ones called subnets.
+- That's, define the range of IP addresses that can be used in a network or subnet.
+- By may of the subnet, network traffic can travel a shorter distance without going through unnecessary routes to reach its destination.
+
+#
+
+### Switch
+- Connects multiple devices on a single network, usually on a LAN (local area network).
+- Unlike a router, a switch simply sends data to the devices it's intended for, which can be anothes switch, router or computer.
+- It has no interfaces, as it only distributes packets to its local network and can't communicate directly with a network outside its own.
+
+#
+
+### Router
+- The router connects several network together or packet-switched subnets.
+- It manages traffic between these networks by forwarding data packets to their intended IP addresses and allowing multiple devices to use the same Internet connection.
+- The router has one interface for each network it connects to.
+- Because the router separates different networks, the range of possible IP addresses on one of its interface must not overlap with the range on its other interfaces.
+- An overlap in the IP address range would imply that the interfaces are on the same network.
+- To send packets efficiently, it uses an internal routing table (Routing Table), which is a list of paths to varios network destinations.
+- A router reads a packet header to determine where it's going and then consults the routing table to decide which path is the most efficient for the packet to reack its destination.
+
+#
+
+### Routing Table
+- This is a table of data stored on a router or network host that lists the routes to certain network destinations.
+
+  #### Destination:
+  - Specifies a network address at which a host is the final destination of packets.
+  - The default route or 0.0.0.0/0 is the route that takes effect when no other route is available to a destination IP address.
+  - The default route will use the address of the next hop to send packets on its way without providing a specific destination.
+  - The default route will match any network.
+  
+  #### Next hop:
+  - Refers to the next closest router that a packet can pass through.
+  - This is the IP address of the next router in the packet's path.
 
 <br/>
 
