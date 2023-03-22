@@ -8,10 +8,9 @@
 </h1>
 
 <p align="center">
-  <sub> In progress
+  <sub> Netpractice is the configuration of a small scale network using TCP/IP addressing.
   <sub>
 </p>
-
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#table-of-contents)
 
@@ -26,7 +25,7 @@
 
 <a id="About"></a>
 ## 💡 About the project
-> IN PROGRESS
+> In this project the goal is to configure small scale networks using TCP/IP addressing. Networks are not real. Will be available through a browser-based training interface
 
 <br/>
 
