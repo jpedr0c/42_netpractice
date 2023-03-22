@@ -41,7 +41,7 @@
 #
 
 ### IP Address
-- Is't part of an Internet protocol suite, which also includes TCP.
+- It's part of an Internet protocol suite, which also includes TCP.
 - The Internet Protocol suite governs the rules for packaging, addressing, transmitting, routing and receiving data across networks.
 - IP addressing is a logical means of assigning addresses to devices on a network.
 - Each device connected to the Internet requires a unique IP address.
